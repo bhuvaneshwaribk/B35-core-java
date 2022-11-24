@@ -22,8 +22,9 @@ public class nestedif {
 			    }
 				System.out.println("");
 			
-		}
-	}
+		    }
+	    }
+		s.close();
 
 	}
 }

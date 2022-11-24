@@ -10,7 +10,7 @@ public class Assignmentoperator {
 		int b=s.nextInt();
 		boolean result=(a==b);
 		System.out.println("result is :"+result);
-		
+		s.close();
 
 	}
 

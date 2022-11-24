@@ -6,6 +6,7 @@ public class forloop {
 
 	public static void main(String[] args) {
 		int i=1;
+		@SuppressWarnings("resource")
 		Scanner s=new Scanner(System.in);
 		int num=s.nextInt();
 		for(i=1;i<num;i++)
@@ -13,6 +14,7 @@ public class forloop {
 			System.out.println("welcome"+i);
 			
 		}
+		s.close();
 	}
 
 }

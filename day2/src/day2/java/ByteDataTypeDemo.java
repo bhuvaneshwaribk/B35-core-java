@@ -12,7 +12,8 @@ public class ByteDataTypeDemo {
     	  float c=12.89f;
     	  double d=41.6;
     	  String str="bhuvana";
-    	  boolean var=true;
+    	  @SuppressWarnings("unused")
+		boolean var=true;
     	  int x=(int)12.5;
     	  float y=(float)34;
     	  System.out.println("the value is:"+pqr);

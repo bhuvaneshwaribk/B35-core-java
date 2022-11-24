@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class switchcase {
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		int num=s.nextInt();
@@ -31,7 +30,7 @@ public class switchcase {
 			System.out.println("invalid input");
 		 }
 	    }
-		
+		s.close();
 
 }
 }

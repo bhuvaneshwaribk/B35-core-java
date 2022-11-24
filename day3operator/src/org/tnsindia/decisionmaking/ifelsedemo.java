@@ -15,6 +15,7 @@ public class ifelsedemo {
 		{
 	    	System.out.println("b is greater:"+b);
 		}
+		s.close();
 	}
 
 }

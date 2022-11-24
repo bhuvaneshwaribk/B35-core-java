@@ -13,7 +13,7 @@ public class stringinputdemo {
 	    
 	    System.out.println("the string is:"+str);
 	    System.out.println("the string is:"+str1);
-
+	    s.close();
 	}
 
 }

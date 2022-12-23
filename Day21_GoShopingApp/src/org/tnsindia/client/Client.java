@@ -1,8 +1,5 @@
 package org.tnsindia.client;
 
-import org.tnsindia.application.GSNormalAcc;
-import org.tnsindia.application.GSPrimeAcc;
-import org.tnsindia.application.GSShopFactory;
 import org.tnsindia.framework.NormalAcc;
 import org.tnsindia.framework.PrimeAcc;
 import org.tnsindia.framework.ShopFactory;
